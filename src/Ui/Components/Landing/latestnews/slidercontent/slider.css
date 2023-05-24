@@ -1,0 +1,41 @@
+.slider1 .swiper-button-next {
+  background: url("../../../../../Assests/Img/Pages/home/latestnews/icons8-up-arrow-50.png")
+    no-repeat;
+  background-size: cover;
+}
+.slider1 .swiper-button-next::after {
+  display: none;
+}
+.slider1 .swiper-button-prev {
+  background: url("../../../../../Assests/Img/Pages/home/latestnews/icons8-up-arrow-50.png")
+    no-repeat;
+  background-size: cover;
+  transform: rotate(180deg);
+  right: 93% !important;
+}
+.swiper-button-prev:after {
+  display: none;
+}
+.slider1 .swiper-button-next,
+.slider1 .swiper-button-prev {
+  position: absolute;
+  top: var(--swiper-navigation-top-offset, 65%) !important;
+}
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .slider1 .swiper-button-prev {
+    right: 89% !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1024px) {
+  .slider1 .swiper-button-prev,
+  .swiper-button-next {
+    display: none !important;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 992px) {
+  .slider1 .swiper-button-prev,
+  .swiper-button-next {
+    display: none !important;
+  }
+}

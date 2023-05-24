@@ -1,0 +1,37 @@
+.cardHover:hover .description {
+  color: #fff;
+}
+.slider2 .swiper-slide {
+  display: flex !important;
+  justify-content: space-evenly !important;
+}
+.slider2 .swiper-button-prev {
+  background: url("../../../../../Assests/Img/Pages/home/latestnews/icons8-up-arrow-50.png")
+    no-repeat;
+  background-size: cover;
+  transform: rotate(180deg);
+  right: 0 !important;
+}
+.slider2 .swiper-button-next,
+.slider2 .swiper-button-prev {
+  position: absolute;
+  top: var(--swiper-navigation-top-offset, 50%) !important;
+}
+.slider2 .swiper-button-next {
+  background: url("../../../../../Assests/Img/Pages/home/latestnews/icons8-up-arrow-50.png")
+    no-repeat;
+  background-size: cover;
+}
+.slider2 .swiper-button-next::after {
+  display: none;
+}
+.swiper-button-prev:after {
+  display: none;
+}
+
+@media (min-width: 320px) and (max-width: 1500px) {
+  .slider2 .swiper-button-prev,
+  .slider2 .swiper-button-next {
+    display: none !important;
+  }
+}

@@ -1,0 +1,9 @@
+.bg-video {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.6)
+    ),
+    url("../../../../Assests/Img/Pages/home/video/watermelon-dew-drops-growing-garden-after-rain_505644-193.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

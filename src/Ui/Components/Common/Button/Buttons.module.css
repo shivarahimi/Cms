@@ -1,0 +1,28 @@
+.customBtn {
+  background-color: #f0f0f0 !important;
+  border: none !important;
+  outline: none;
+  color: #066e48!important;  
+}
+
+.customBtn:hover {
+  background-color: #066e48 !important;
+  color: #fff!important;
+  border-radius: 0.5rem!important;
+}
+
+.btn {
+    border-radius: none;
+}
+
+@media (max-width: 320px)and (min-width: 767px) {
+  .customBtn {
+    padding: 0 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .customBtn {
+    padding: 0.3rem 1.5rem!important;
+  }
+}

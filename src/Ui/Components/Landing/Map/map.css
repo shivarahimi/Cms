@@ -1,0 +1,20 @@
+.province {
+  fill: #fff;
+  cursor: pointer;
+}
+.province :hover {
+  fill: #eeaa67;
+}
+.sea > path {
+  fill: #00bdff;
+}
+.border {
+  border: 1px solid #dee2e6 !important;
+  fill: rgba(0, 0, 0, 0.2);
+}
+.lake {
+  fill: #00bdff;
+}
+.island {
+  fill: #efefef;
+}

@@ -1,0 +1,48 @@
+.pictureNewsOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  opacity: 0;
+  transition: opacity 0.5s;
+  color: #fff;
+  border-radius: 4px;
+}
+.picBlur {
+  backdrop-filter: blur(3px);
+}
+.pictureNewsOverlay > * {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+.pictureNewsOverlay:hover {
+  opacity: 1;
+}
+.pictureNewsOverlay:hover > * {
+  transform: translateY(0);
+}
+.pictureNewsOverlay:hover .iconBlur {
+  font-size: 25px;
+}
+.textSummery {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.pictureNewsOverlay:hover .iconBlur {
+  font-size: 25px;
+}
+
+.cardAnim {
+  transition: transform 0.3s;
+}
+
+.cardAnim:hover {
+  transform: translateY(-0.5rem);
+}

@@ -1,0 +1,37 @@
+.gallery figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery figure {
+  margin: 0;
+}
+
+.galleryImg1 {
+  border-top-right-radius: 2rem;
+}
+
+.galleryImg2 {
+  border-top-left-radius: 2rem;
+}
+
+.galleryImg3 {
+  border-bottom-right-radius: 2rem;
+}
+.galleryImg4 {
+  border-bottom-left-radius: 2rem;
+}
+
+.galleryitem1 {
+  margin-top: 0.75rem !important;
+}
+
+.galleryitem2 {
+  grid-row: span 2 / span 2;
+}
+
+.galleryitem3 {
+  grid-row: span 2 / span 2;
+  margin-bottom: -0.7rem !important;
+}

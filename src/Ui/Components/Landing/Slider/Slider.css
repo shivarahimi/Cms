@@ -1,0 +1,19 @@
+/* .imgSlider {
+  width: 100%;
+  object-fit: cover;
+} */
+
+@media (min-width: 768px) {
+ .siwperHeader .mySiwper {
+    margin: 0 2rem;
+  }
+}
+
+.siwperHeader  .swiper-pagination-bullet {
+  background-color: #066e48;
+}
+
+.siwperHeader .swiper-button-prev,
+.siwperHeader .swiper-button-next {
+  display: none ;
+}
